@@ -13,8 +13,11 @@ namespace Circle
         {
             _Radius = radie; 
         }
-         public void getArea() {
-            Console.WriteLine("Arean på cirkeln är "+_Radius * _Radius * _pi);
+         public float getArea()
+        {
+
+            float result = _Radius * _Radius * _pi;
+            return result;
             
         }
      

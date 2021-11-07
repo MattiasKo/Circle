@@ -8,14 +8,16 @@ namespace Circle
         static void Main(string[] args)
         {
          Circle radie = new Circle(5);
-         radie.getArea();
+         Console.WriteLine("Arean är "+ radie.getArea());
          radie = new Circle(6);
-         radie.getArea();
+         Console.WriteLine("Arean är " + radie.getArea());
+
          Triangle Tri = new Triangle();
          Tri.Hieght = 7;
          Tri.Width = 12;
          Tri.getTriArea();
          Tri.FasTritArea(34, 3);
+         
 
         }
     }
